@@ -126,14 +126,5 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    {
-			resolve: 'gatsby-plugin-pdf',
-			options: {
-				allPages: true,
-				styleTagOptions: {
-					content: 'header{display:none;} footer{display:none;} .cookie-bar{display:none;}'
-				}
-			},
-		}
   ],
 }
